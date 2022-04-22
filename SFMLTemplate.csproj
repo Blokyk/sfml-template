@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>SFMLTemplate</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnablePreviewFeatures>true</EnablePreviewFeatures>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SFML.Net" Version="2.*" />
+    <PackageReference Include="System.Runtime.Experimental" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="SFML.System" />
+    <Using Include="SFML.Window" />
+    <Using Include="SFML.Graphics" />
+  </ItemGroup>
+
+</Project>
